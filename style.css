@@ -1,0 +1,121 @@
+body {
+    background-color:orange;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* .historical {
+    margin-top: 1em;
+}
+
+.historical {
+    display: block;
+}
+.historical img{
+float: right;
+    max-width: 50%;
+    margin: 5%;
+}
+.castle{
+    display: block;
+    width: 30%;
+    
+}
+.street{
+    display: block;
+    width: 30%;
+
+}
+.museum{
+    display: block;
+    width: 30%;
+
+}
+.mountain {
+    background-image: url(https://www.flightcentre.com.hk/sites/flightcentre.com.hk/files/styles/fcl_blog_slideshow/public/fcl-blog/cape-town_558175603.jpg?itok=HEkWmv2p);
+}
+
+
+@media(min-width:800px){
+    body {
+        background-color:orange;
+    }
+    
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+    .historical {
+        margin-top: 1em;
+    }
+    
+    .historical {
+        display: block;
+    }
+    .historical img {
+    float: right;
+        max-width: 50%;
+        margin: 5%;
+    }
+    .castle {
+        display: block;
+        width: 30%;
+        float: left;
+    }
+    .street {
+        display: block;
+        width: 30%;
+        float: left;
+    }
+    .museum {
+        display: block;
+        width: 30%;
+        float: left;
+    }
+    .mountain {
+        background-image: url(https://www.flightcentre.com.hk/sites/flightcentre.com.hk/files/styles/fcl_blog_slideshow/public/fcl-blog/cape-town_558175603.jpg?itok=HEkWmv2p);
+    }
+} */
+
+.historical {
+    width:94.75%;
+    margin:0 auto;
+    overflow: hidden;
+}
+.City {
+    width: 33.333%;
+    float:left;
+    text-align: center;
+}
+.City img {
+    float:right;
+    margin:0.5em;
+}
+@media only screen and (max-width:768px) {
+    .city-1,.city-2{
+        width: 100%;
+        /* margin: 0.5em; */
+    }
+    .city-3{
+        width: 100%;
+    }
+    .city-2 img {
+        float: left;
+    }
+}
+/* @media only screen and (max-width:500px) {
+    .City{
+        float:none;
+    }
+   li {margin:0;padding:0;
+list-style-type:none;
+    }
+
+} */
+.Footer {
+    clear:both;
+}
